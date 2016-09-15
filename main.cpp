@@ -20,6 +20,7 @@ int main()
     struct arg_struct args;
     args.arg1 = &tree;
 
+	cout<<"Fablacu97 modifica"<<endl;
     //tree.parallel_insert(elementos,tam);
 
     pthread_t* threads;
