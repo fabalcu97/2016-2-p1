@@ -23,12 +23,13 @@ int main()
     args.arg1 = &tree;
 
 	cout<<"Fablacu97 modifica"<<endl;
-    tree.parallel_insert(elementos,tam);
+	tree.parallel_insert(elementos,tam);
+	cout<<"mureran todos"<<endl;
 
     pthread_t* threads;
     threads = (pthread_t*) malloc( tam * sizeof(pthread_t) );
     pthread_t* threads1;
-    
+
 	threads1 = (pthread_t*) malloc( 3 * sizeof(pthread_t) );
 
 	for (int i = 0; i < tam; ++i) {
