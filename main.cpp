@@ -60,7 +60,7 @@ int main()
 	// for (int i = 0; i < 3; ++i) {
 	// 	pthread_join( threads1[i], NULL);
 	// }
-
+	cout<<"nueva linea"<<endl;
     //tree.my_insert(5);
     //tree.my_insert(2);
     //tree.my_insert(9);
