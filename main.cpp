@@ -3,8 +3,10 @@
 #include <random>
 #include <time.h>
 #include "c_BSTree.h"
-
 using namespace std;
+typedef int ENTERO;
+typedef c_BSTree<int> ArbolEntero;
+//Modificacion Joaquingx
 
 int main()
 {
@@ -24,10 +26,9 @@ int main()
     //tree.parallel_insert(elementos,tam);
 
     pthread_t* threads;
-
-	threads = (pthread_t*) malloc( tam * sizeof(pthread_t) );
+    threads = (pthread_t*) malloc( tam * sizeof(pthread_t) );
     pthread_t* threads1;
-
+    
 	threads1 = (pthread_t*) malloc( 3 * sizeof(pthread_t) );
 
 	for (int i = 0; i < tam; ++i) {
