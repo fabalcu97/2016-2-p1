@@ -6,6 +6,9 @@
 using namespace std;
 typedef int ENTERO;
 typedef c_BSTree<int> ArbolEntero;
+typedef c_BSTree<float> ArbolFloat;
+typedef c_BSTree<double> ArbolDouble;
+typedef c_BSTree< pair<int,int> > ArbolPair;
 //Modificacion Joaquingx
 //Agregar Jonathan
 
@@ -25,11 +28,14 @@ int main()
     struct arg_struct args;
     args.arg1 = &tree;
 
-	cout<<"JonMoll modifica"<<endl;
-	
-	tree.parallel_insert(elementos,tam);
+    cout<<"JonMoll modifica"<<endl;
 
-	cout<<"nueva linea!!!"<<endl;
+    tree.parallel_insert(elementos,tam);
 
+    cout<<"nueva linea!!!"<<endl;
+
+    cout << "Ne pleure pas, Alfred ! Jai besoin de tout mon courage pour mourir a vingt ans !- E. Galois\n";
+    
+    cout << "The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense. - E. Dijkstra\n";
     return 0;
 }
