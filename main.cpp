@@ -25,7 +25,8 @@ int main()
     struct arg_struct args;
     args.arg1 = &tree;
 
-	cout<<"Fablacu97 modifica"<<endl;
+	cout<<"JonMoll modifica"<<endl;
+	
 	tree.parallel_insert(elementos,tam);
 	cout<<"mureran todos"<<endl;
 
