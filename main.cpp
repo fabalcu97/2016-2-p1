@@ -23,7 +23,7 @@ int main()
     args.arg1 = &tree;
 
 	cout<<"Fablacu97 modifica"<<endl;
-    //tree.parallel_insert(elementos,tam);
+    tree.parallel_insert(elementos,tam);
 
     pthread_t* threads;
     threads = (pthread_t*) malloc( tam * sizeof(pthread_t) );
