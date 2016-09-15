@@ -7,6 +7,7 @@ using namespace std;
 typedef int ENTERO;
 typedef c_BSTree<int> ArbolEntero;
 //Modificacion Joaquingx
+//Agregar Jonathan
 
 int main()
 {
