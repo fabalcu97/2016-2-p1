@@ -20,6 +20,7 @@ int main()
 	elementos[i]=rand()%100;
     }
     cout<<"Angel modifica"<<endl;
+    cout<<"Angel modifica2"<<endl;
     cout<<"vivo"<<endl;
     struct arg_struct args;
     args.arg1 = &tree;
