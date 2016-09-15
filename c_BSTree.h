@@ -85,7 +85,7 @@ void* c_BSTree<T>::my_insert(void *mdata){
 	again:
 	pthread_mutex_lock(&mMutex);
 	if(!(*it)){
-		*it = new c_Node<T> (data
+	  *it = new c_Node<T> (data);
 	}
 	pthread_mutex_unlock(&mMutex);
 
@@ -199,7 +199,6 @@ template <class T>
 void* c_BSTree<T>::delete_helper(void* context){
 	struct arg_struct *args = (struct arg_struct *)context;
 	//int el=args->arg1;
-
 	return ((c_BSTree<T> *)args->arg1)->my_delete(args->arg2);
 }
 
