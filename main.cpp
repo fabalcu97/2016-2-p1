@@ -29,7 +29,7 @@ int main()
 	
 	tree.parallel_insert(elementos,tam);
 
-	cout<<"nueva linea"<<endl;
+	cout<<"nueva linea!!!"<<endl;
 
     return 0;
 }
