@@ -29,9 +29,6 @@ int main()
 	
 	tree.parallel_insert(elementos,tam);
 
-    pthread_t* threads;
-    threads = (pthread_t*) malloc( tam * sizeof(pthread_t) );
-    pthread_t* threads1;
 
     return 0;
 }
